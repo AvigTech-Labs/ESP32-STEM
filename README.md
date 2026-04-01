@@ -6,6 +6,6 @@ Abril- 2026
 
 ---
 
-**[Ver la documentación en línea](https://avigtech-labs.github.io/RenaBot/)**
+**[Ver la documentación en línea](https://avigtech-labs.github.io/ESP32-STEM/)**
 
 ---
