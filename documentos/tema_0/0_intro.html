@@ -6,7 +6,7 @@
   <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>RENA-BOT 4 en 1 &mdash; documentación de Placa de desarrollo STEM ESP32 - 0.1</title>
+  <title>ESP32 - STEM v1 &mdash; documentación de Placa de desarrollo STEM ESP32 - 0.1</title>
       <link rel="stylesheet" type="text/css" href="../../_static/pygments.css?v=b86133f3" />
       <link rel="stylesheet" type="text/css" href="../../_static/css/theme.css?v=9edc463e" />
       <link rel="stylesheet" type="text/css" href="../../_static/copybutton.css?v=76b2166b" />
@@ -24,8 +24,8 @@
     <script src="../../_static/js/theme.js"></script>
     <link rel="index" title="Índice" href="../../genindex.html" />
     <link rel="search" title="Búsqueda" href="../../search.html" />
-    <link rel="next" title="Construcción del RENA-BOT" href="../tema_1/0_construccion.html" />
-    <link rel="prev" title="RENA-BOT" href="../../index.html" /> 
+    <link rel="next" title="Diseño de pines para prototipado" href="../tema_1/0_prototipado.html" />
+    <link rel="prev" title="ESP32 - STEM" href="../../index.html" /> 
 </head>
 
 <body class="wy-body-for-nav"> 
@@ -49,17 +49,17 @@
         </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
               <p class="caption" role="heading"><span class="caption-text">Introducción</span></p>
 <ul class="current">
-<li class="toctree-l1 current"><a class="current reference internal" href="#">RENA-BOT 4 en 1</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="#proposito-del-rena-bot"><strong>Propósito del RENA-BOT</strong></a></li>
-<li class="toctree-l2"><a class="reference internal" href="#caracteristicas-principales"><strong>Características principales</strong></a></li>
-<li class="toctree-l2"><a class="reference internal" href="#ambitos-de-aplicacion"><strong>Ámbitos de aplicación</strong></a></li>
-<li class="toctree-l2"><a class="reference internal" href="#beneficios-educativos"><strong>Beneficios educativos</strong></a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">ESP32 - STEM v1</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#que-necesitas"><strong>Qué necesitas</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="#descripcion-general"><strong>Descripción General</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="#componentes-principales">Componentes principales</a></li>
 </ul>
 </li>
 </ul>
-<p class="caption" role="heading"><span class="caption-text">Construcción</span></p>
+<p class="caption" role="heading"><span class="caption-text">Diseño de pines</span></p>
 <ul>
-<li class="toctree-l1"><a class="reference internal" href="../tema_1/0_construccion.html">Construcción del RENA-BOT</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../tema_1/0_prototipado.html">Diseño de pines para prototipado</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../tema_1/1_stem.html">Diseño de pines para STEM</a></li>
 </ul>
 
         </div>
@@ -76,7 +76,7 @@
           <div role="navigation" aria-label="Page navigation">
   <ul class="wy-breadcrumbs">
       <li><a href="../../index.html" class="icon icon-home" aria-label="Home"></a></li>
-      <li class="breadcrumb-item active">RENA-BOT 4 en 1</li>
+      <li class="breadcrumb-item active">ESP32 - STEM v1</li>
       <li class="wy-breadcrumbs-aside">
       </li>
   </ul>
@@ -85,54 +85,111 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
              
-  <section id="rena-bot-4-en-1">
-<h1>RENA-BOT 4 en 1<a class="headerlink" href="#rena-bot-4-en-1" title="Link to this heading"></a></h1>
-<p>El <strong>RENA-BOT</strong> es un robot educativo diseñado con un enfoque <strong>compacto, modular y accesible</strong>, orientado a la enseñanza de <strong>STEM (Ciencia, Tecnología, Ingeniería y Matemáticas)</strong> en niños y jóvenes de <strong>5 a 14 años</strong>.
-Su desarrollo busca apoyar tanto a la educación formal como a la educación extracurricular, ofreciendo una herramienta práctica para introducirse en el mundo de la robótica.</p>
+  <section id="esp32-stem-v1">
+<h1>ESP32 - STEM v1<a class="headerlink" href="#esp32-stem-v1" title="Link to this heading"></a></h1>
+<p>Esta guía muestra como utilizar la placa de desarrollo ESP32 STEM de AVIG TECH</p>
+<section id="que-necesitas">
+<h2><strong>Qué necesitas</strong><a class="headerlink" href="#que-necesitas" title="Link to this heading"></a></h2>
+<ul class="simple">
+<li><p>USB 2.0 Tipo C</p></li>
+<li><p>Computador con sistema operativo  Windows, Linux o MacOS</p></li>
+<li><p>Placa de desarrollo ESP32 - STEM V1</p></li>
+</ul>
+</section>
+<section id="descripcion-general">
+<h2><strong>Descripción General</strong><a class="headerlink" href="#descripcion-general" title="Link to this heading"></a></h2>
+<p>La placa de desarrollo basada en ESP32 WROOM ha sido diseñada como una solución integral para
+proyectos de educación STEM, robótica e IoT. Este dispositivo combina conectividad inalámbrica
+(WiFi y Bluetooth), capacidad de procesamiento en tiempo real y una arquitectura flexible que
+permite interactuar con sensores, actuadores y sistemas externos.</p>
+<p>Su diseño está orientado a facilitar el aprendizaje progresivo, desde conceptos básicos de
+electrónica y programación hasta la implementación de sistemas avanzados como comunicación MQTT,
+integración con ROS 2 y desarrollo de interfaces HMI. Gracias a su compatibilidad con entornos
+como Arduino, MicroPython y frameworks IoT, la placa se convierte en una herramienta versátil
+tanto para estudiantes como para desarrolladores.</p>
+</section>
+<section id="componentes-principales">
+<h2>Componentes principales<a class="headerlink" href="#componentes-principales" title="Link to this heading"></a></h2>
 <figure class="align-center" id="id1">
-<a class="reference internal image-reference" href="../../_images/Robot_STEM.png"><img alt="modelorobot" src="../../_images/Robot_STEM.png" style="width: 400px;" />
+<a class="reference internal image-reference" href="../../_images/placa_desarrollo.png"><img alt="modelorobot" src="../../_images/placa_desarrollo.png" style="width: 400px;" />
 </a>
 <figcaption>
-<p><span class="caption-text">RENA-Bot modelos</span><a class="headerlink" href="#id1" title="Link to this image"></a></p>
+<p><span class="caption-text">ESP32 STEM V1</span><a class="headerlink" href="#id1" title="Link to this image"></a></p>
 </figcaption>
 </figure>
-<section id="proposito-del-rena-bot">
-<h2><strong>Propósito del RENA-BOT</strong><a class="headerlink" href="#proposito-del-rena-bot" title="Link to this heading"></a></h2>
-<p>El RENA-BOT no es solo un kit de robótica, sino un programa integral que propone la integración de la robótica educativa como herramienta pedagógica para reforzar las destrezas y objetivos del currículo nacional del Ministerio de Educación del Ecuador, desde Preparatoria hasta el nivel Superior de Educación General Básica (EGB).</p>
-<p>El uso del robot móvil diferencial con sensores y actuadores permite que los estudiantes aprendan de manera activa, desarrollando pensamiento lógico, habilidades de resolución de problemas y trabajo colaborativo, mientras cumplen con los objetivos de aprendizaje establecidos por el Ministerio.</p>
-</section>
-<section id="caracteristicas-principales">
-<h2><strong>Características principales</strong><a class="headerlink" href="#caracteristicas-principales" title="Link to this heading"></a></h2>
-<ul class="simple">
-<li><p>Diseño <strong>compacto, modular y fácil de ensamblar</strong>.</p></li>
-<li><p>Compatibilidad con plataformas como <strong>Arduino IDE</strong>.</p></li>
-<li><p>Conectividad WiFi.</p></li>
-<li><p>Arquitectura basada en un robot móvil diferencial, con capacidad de expansión a nuevos sensores y actuadores.</p></li>
-<li><p>Documentación y software educativo diseñados para acompañar el aprendizaje paso a paso.</p></li>
-</ul>
-</section>
-<section id="ambitos-de-aplicacion">
-<h2><strong>Ámbitos de aplicación</strong><a class="headerlink" href="#ambitos-de-aplicacion" title="Link to this heading"></a></h2>
-<ul class="simple">
-<li><p><strong>Educación formal:</strong> implementación en instituciones educativas alineadas al currículo nacional.</p></li>
-<li><p><strong>Educación no formal:</strong> clubes de robótica, laboratorios de innovación y espacios maker.</p></li>
-<li><p><strong>Uso individual:</strong> estudiantes y familias que deseen explorar robótica y programación en casa.</p></li>
-</ul>
-</section>
-<section id="beneficios-educativos">
-<h2><strong>Beneficios educativos</strong><a class="headerlink" href="#beneficios-educativos" title="Link to this heading"></a></h2>
-<p>El RENA-BOT fomenta:</p>
-<ul class="simple">
-<li><p>El desarrollo del pensamiento computacional y la lógica algorítmica.</p></li>
-<li><p>El aprendizaje basado en proyectos.</p></li>
-<li><p>La creatividad y curiosidad tecnológica a través de la experimentación.</p></li>
-<li><p>La colaboración y el trabajo en equipo en entornos de aprendizaje práctico.</p></li>
-</ul>
-<p>De esta manera, el RENA-BOT no solo introduce a los niños y jóvenes en la robótica, sino que también abre el camino hacia la investigación, la innovación y la preparación para los desafíos tecnológicos del futuro.</p>
-<div class="admonition note">
-<p class="admonition-title">Nota</p>
-<p>Asegúrese de revisar las versiones de los diferentes paquetes disponibles, ya que cada componente cuenta con soporte específico en la documentación.</p>
-</div>
+<p>Entre los principales elementos que incorpora se encuentran:</p>
+<table class="fit-table docutils align-default">
+<colgroup>
+<col style="width: 7.8%" />
+<col style="width: 27.5%" />
+<col style="width: 64.7%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>N</p></th>
+<th class="head"><p>Elemento</p></th>
+<th class="head"><p>Descripción</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>1</p></td>
+<td><p>Puerto USB Tipo C</p></td>
+<td><p>La comunicación serial se puede realizar en base a tipo C</p></td>
+</tr>
+<tr class="row-odd"><td><p>2</p></td>
+<td><p>Botón EN</p></td>
+<td><p>Botón de reinicio del sistema. Al presionarlo, reinicia el ESP32 y reinicia la ejecución del programa cargado.</p></td>
+</tr>
+<tr class="row-even"><td><p>3</p></td>
+<td><p>Entrada VIN</p></td>
+<td><p>Terminal de alimentación externa. Permite alimentar la placa con una fuente de voltaje externa, que posteriormente es regulada para el correcto funcionamiento del sistema.</p></td>
+</tr>
+<tr class="row-odd"><td><p>4</p></td>
+<td><p>Regulador MP1584</p></td>
+<td><p>Convertidor DC-DC step-down encargado de regular el voltaje de entrada a niveles adecuados para el sistema (5V / 3.3V).</p></td>
+</tr>
+<tr class="row-even"><td><p>5</p></td>
+<td><p>Módulo ESP32-WROOM</p></td>
+<td><p>Microcontrolador principal del sistema. Integra WiFi, Bluetooth, CPU de doble núcleo y periféricos necesarios para aplicaciones IoT y robótica.</p></td>
+</tr>
+<tr class="row-odd"><td><p>6</p></td>
+<td><p>Driver TB6612FNG</p></td>
+<td><p>Controlador de motores DC de doble canal. Permite controlar dirección y velocidad mediante señales PWM desde el ESP32. Voltaje de operacion de 2.5 a 13 [v] y 1.2 [A] nominal por canal.</p></td>
+</tr>
+<tr class="row-even"><td><p>7</p></td>
+<td><p>Multiplexor Analógico</p></td>
+<td><p>Multiplexor analógico de 16 canales que permite expandir las entradas analógicas del ESP32.</p></td>
+</tr>
+<tr class="row-odd"><td><p>8</p></td>
+<td><p>Conectores de E/S</p></td>
+<td><p>Interfaces físicas para conexión de sensores y actuadores. Distribuyen señales de alimentación, tierra y pines GPIO del ESP32.</p></td>
+</tr>
+<tr class="row-even"><td><p>9</p></td>
+<td><p>Expansor GPIO</p></td>
+<td><p>Expansor de pines digitales (PCF8574T) mediante comunicación I2C, utilizado para aumentar la cantidad de entradas/salidas disponibles.</p></td>
+</tr>
+<tr class="row-odd"><td><p>10</p></td>
+<td><p>Puente USB a UART</p></td>
+<td><p>Chip encargado de la conversión USB a comunicación serial UART, utilizado para la programación y depuración del ESP32.</p></td>
+</tr>
+<tr class="row-even"><td><p>11</p></td>
+<td><p>LED de alimentación 5V</p></td>
+<td><p>Indicador visual que se enciende cuando la placa está correctamente alimentada.</p></td>
+</tr>
+<tr class="row-odd"><td><p>12</p></td>
+<td><p>Botón Boot</p></td>
+<td><p>Botón utilizado para entrar en modo de programación. Se emplea junto con el botón EN para cargar firmware en el ESP32.</p></td>
+</tr>
+</tbody>
+</table>
+<p>A continuación, se presentan las hojas de datos oficiales de los principales componentes utilizados en la placa:</p>
+<p>TB6612FNG (Driver de motores)</p>
+<p><a class="reference download internal" download="" href="../../_downloads/35cf68ef2ac52760dd6bb7c4b3ccfca6/TB6612FNG.pdf"><code class="xref download docutils literal notranslate"><span class="pre">Ficha</span> <span class="pre">Técnica</span> <span class="pre">TB6612FNG</span></code></a></p>
+<p>CD74HC4067SM (Multiplexor analógico)</p>
+<p><a class="reference download internal" download="" href="../../_downloads/26e9e16405be20012f90709dbf96e2d0/CD74HC4067SM.pdf"><code class="xref download docutils literal notranslate"><span class="pre">Ficha</span> <span class="pre">Técnica</span> <span class="pre">CD74HC4067SM</span></code></a></p>
+<p>PCF8574T (Expansor GPIO I2C)</p>
+<p><a class="reference download internal" download="" href="../../_downloads/3a1cb68d01c8cd1da7ff57768764f5e1/PCF8574T.pdf"><code class="xref download docutils literal notranslate"><span class="pre">Ficha</span> <span class="pre">Técnica</span> <span class="pre">PCF8574T</span></code></a></p>
+<p>MP1584 (Regulador DC-DC Step-Down)</p>
+<p><a class="reference download internal" download="" href="../../_downloads/a95a2c9d18e5b54a5c0dd8262f5d7057/MP1584.pdf"><code class="xref download docutils literal notranslate"><span class="pre">Ficha</span> <span class="pre">Técnica</span> <span class="pre">MP1584</span></code></a></p>
 </section>
 </section>
 
@@ -140,8 +197,8 @@ Su desarrollo busca apoyar tanto a la educación formal como a la educación ext
            </div>
           </div>
           <footer><div class="rst-footer-buttons" role="navigation" aria-label="Pie de página">
-        <a href="../../index.html" class="btn btn-neutral float-left" title="RENA-BOT" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Anterior</a>
-        <a href="../tema_1/0_construccion.html" class="btn btn-neutral float-right" title="Construcción del RENA-BOT" accesskey="n" rel="next">Siguiente <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="../../index.html" class="btn btn-neutral float-left" title="ESP32 - STEM" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Anterior</a>
+        <a href="../tema_1/0_prototipado.html" class="btn btn-neutral float-right" title="Diseño de pines para prototipado" accesskey="n" rel="next">Siguiente <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
     </div>
 
   <hr/>
