@@ -1,7 +1,7 @@
-RENA-BOT
+ESP32 - STEM
 ============
 
-Bienvenido a la documentación oficial del RENA-BOT Kit de Robótica 4en1.
+Bienvenido a la documentación oficial de la placa de desarrllo ESP32 - STEM.
 
 Esta documentación ha sido desarrollada por AvigTech.
 
@@ -20,9 +20,12 @@ Contenido
 
 .. toctree::
    :maxdepth: 2
-   :caption: Construcción
+   :caption: Diseño de pines 
 
-   documentos/tema_1/0_construccion
+   documentos/tema_1/0_prototipado
+   documentos/tema_1/1_stem
+
+
 
 
 
