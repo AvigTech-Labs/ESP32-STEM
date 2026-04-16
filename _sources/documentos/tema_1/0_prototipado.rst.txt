@@ -5,6 +5,7 @@ Los pines de la placa ESP32 STEM puede usarse en su mayoría como pines de una E
 A continuación, el uso respectivo de cada una para configuraciones adicionales y proyectos independientes.
 
 Además, se detalla los pines y direcciones del multiplexor analógico CD74HC4067SM así como los del expansor de GPIO i2c PCF8574T
+
 .. figure:: ./img/placa_prototipado.svg
    :alt: modelorobot
    :align: center
